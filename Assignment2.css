@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.assignment-2 {
+    background-color: #DCDCDC;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    /* padding: 20px;
+    margin: 10px; */
+}
+
+.tag {
+    background-color: #ff0099;
+    color: white;
+    padding: 10px;
+ width: 50%;
+margin-right: 280px;
+    font-size: 1.2em;
+}
+
+.assignment2-text{
+  background-color: white;
+width: 100%;
+  padding: 1px;
+    /* margin: 3px; */
+}
+
+.assignment2-text h2 {
+    margin: 20px 0;
+    font-size: 2em;
+}
+
+.assignment2-text p {
+    font-size: 1em;
+    color: #555;
+}
+
+.assignment2-text span {
+    color: #DCDCDC;
+}
+
+.assignment-2 img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Media Queries */
+
+/* Styles for Tablets (width between 600px and 900px) */
+@media (min-width: 600px) and (max-width: 900px) {
+    .assignment-2 {
+        max-width: 500px;
+    }
+    .tag {
+        font-size: 1em;
+    }
+    .assignment2-text h2 {
+        font-size: 1.8em;
+    }
+    .assignment2-text p {
+        font-size: 0.9em;
+    }
+}
+
+/* Styles for Mobiles (width below 600px) */
+@media (max-width: 600px) {
+    .assignment-2 {
+        max-width: 300px;
+    }
+    .tag {
+        font-size: 0.8em;
+    }
+    .assignment2-text h2 {
+        font-size: 1.5em;
+    }
+    .assignment2-text p {
+        font-size: 0.8em;
+    }
+}
+
+/* Styles for Laptops and Desktops (width above 900px) */
+@media (min-width: 900px) {
+    .assignment-2 {
+        max-width: 600px;
+    }
+    .tag {
+        font-size: 1.2em;
+    }
+    .assignment2-text h2 {
+        font-size: 2em;
+    }
+    .assignment2-text p {
+        font-size: 1em;
+    }
+}

@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.card-header {
+    background-color: #ff0099;
+    color: white;
+    padding: 10px;
+  width: 50%;
+  margin-left: 100px;
+    font-size: 1.5em;
+}
+
+.card-body {
+    padding: 20px;
+    color: black;
+}
+
+/* Media Queries */
+
+/* Styles for Tablets (width between 600px and 900px) */
+@media (min-width: 600px) and (max-width: 900px) {
+    .card {
+        max-width: 300px;
+    }
+    .card-header {
+        font-size: 1.2em;
+    }
+    .card-body {
+        padding: 15px;
+    }
+}
+
+/* Styles for Mobiles (width below 600px) */
+@media (max-width: 600px) {
+    .card {
+        max-width: 250px;
+    }
+    .card-header {
+        font-size: 1em;
+    }
+    .card-body {
+        padding: 10px;
+    }
+}
+
+/* Styles for Laptops and Desktops (width above 900px) */
+@media (min-width: 900px) {
+    .card {
+        max-width: 400px;
+    }
+    .card-header {
+        font-size: 1.5em;
+    }
+    .card-body {
+        padding: 20px;
+    }
+}

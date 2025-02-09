@@ -1,0 +1,106 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+padding: 20px;
+}
+
+.assignment-4 {
+width: 100%;
+display: flex;
+margin: 0 auto;
+justify-content: space-around;
+margin-top: 12%;
+}
+
+.assignment4A {
+background-color: white;
+padding: 20px;
+text-align: center;
+} 
+
+ .assignment4{
+border-radius: 5px;
+width: 44%;
+} 
+
+ .assignment4A-1 {
+font-weight: bold;
+color: black;
+}
+
+.assignment4A-2 {
+color: green;
+text-decoration: underline;
+}
+
+h2 {
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+
+
+.assignment4A-3 {
+background-color: gray;
+padding: 25px;
+margin-bottom: 25px;
+text-align: center;
+}
+
+.assignment4A-3 p {
+background-color: #f4f4f4;
+padding: 15px;
+box-shadow: 0 3px 0 rgba(0, 0, 0, 0.3);
+}
+.assignment4A-4 {
+background-color: gold;
+font-weight: bold;
+padding: 10px;
+position: relative;
+top: 15px;
+display: inline-block;
+box-shadow: 0 1.7px 0 rgba(0, 0, 0, 0.3);
+border-bottom: 1px solid goldenrod;
+}
+
+
+
+/* Media Queries */
+
+/* Styles for Tablets (width between 600px and 900px) */
+@media (min-width: 600px) and (max-width: 900px) {
+    .assignment-4 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 8%;
+    }
+    .assignment4 {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Styles for Mobiles (width below 600px) */
+@media (max-width: 600px) {
+    .assignment-4 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5%;
+    }
+    .assignment4 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Styles for Laptops and Desktops (width above 900px) */
+@media (min-width: 900px) {
+    .assignment-4 {
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 12%;
+    }
+    .assignment4 {
+        width: 44%;
+    }
+}
